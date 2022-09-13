@@ -1,8 +1,9 @@
 <?php
 
-define('API_PA', 'api.adventistas.dev');
+define('API_PA', 'api.adventistas.pt');
 define('API_7CAST', 'api.adv.st');
 define('API_F7P', 'api.feliz7play.com');
+define('API_NTP', 'novotempo.pt/api');
 
 if (file_exists($composer = __DIR__ . '/vendor/autoload.php'))
 	require_once $composer;
