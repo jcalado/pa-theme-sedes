@@ -25,6 +25,8 @@ use Blocks\PARow\PARow;
 use Blocks\PASevenCast\PASevenCast;
 use Blocks\Plugins\RemoteData\RemoteData;
 use IASD\Core\Settings\Modules;
+use Blocks\UPASDNtp\UPASDNtp;
+use Blocks\UPASDFindChurch\UPASDFindChurch;
 use stdClass;
 
 /**
@@ -83,9 +85,11 @@ class Blocks
             PACarouselDownloads::class,
             PAListNews::class,
             PAFeliz7Play::class,
+            UPASDNtp::class,
             PAListVideos::class,
             PAImage::class,
             PAFindChurch::class,
+            UPASDFindChurch::class,
             PACarouselKits::class,
             PAQueroVidaSaude::class,
             PA7Class::class,
