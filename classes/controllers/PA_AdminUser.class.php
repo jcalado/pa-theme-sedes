@@ -12,8 +12,8 @@ class IASD_SupportUser
 
   static function AddUser()
   {
-    $username = 'suporte.internetdsa';
-    $email = 'suporte@internetdsa.com';
+    $username = 'suporte.upasd';
+    $email = 'webmaster@adventistas.org.pt';
     $password = wp_generate_password($length = 12, $include_standard_special_chars = false);
 
     $user_id = username_exists($username);
@@ -28,7 +28,7 @@ class IASD_SupportUser
 
   static function CheckUser()
   {
-    $email = 'suporte@internetdsa.com';
+    $email = 'webmaster@adventistas.org.pt';
     $user = get_user_by('email', $email);
 
     if(!empty($user)){
@@ -39,10 +39,10 @@ class IASD_SupportUser
 
   static function RemoveUser()
   {
-    $username = 'admindsa';
-    $email = 'internetdsa@gmail.com';
+    $username = 'suporte.upasd';
+    $email = 'webmaster@adventistas.org.pt';
 
-    $current_admin = "suporte.internetdsa";
+    $current_admin = "suporte.upasd";
     $current_admin = get_user_by('login', $current_admin);
 
     $user_email = get_user_by('email', $email);
