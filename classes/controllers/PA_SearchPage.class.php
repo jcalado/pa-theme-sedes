@@ -14,15 +14,15 @@ class IASD_CreateSearchPage
     if(!Modules::isActiveModule('searchpage'))
         return;
 
-    $page = "/busca/";
+    $page = "/procurar/";
     $page = get_page_by_path($page);
 
     if (!$page) {
       
       $new_page = array(
         'post_content'   => '',
-        'post_name'      => 'busca',
-        'post_title'     => 'Busca',
+        'post_name'      => 'procurar',
+        'post_title'     => 'Procurar',
         'post_status'    => 'publish',
         'post_type'      => 'page',
         'post_author'    => get_current_user_id(),
