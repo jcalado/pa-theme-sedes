@@ -23,7 +23,7 @@ $relative_sites = [
                 </li>
               <?php endforeach; ?>
               <li class="nav-item">
-                <a class="nav-link pa-search" href="<?= get_home_url(); ?>/busca" title="<?php esc_attr_e('Search', 'iasd'); ?>"><i class="fas fa-search me-1"></i><?php esc_attr_e('Search', 'iasd'); ?></a>
+                <a class="nav-link pa-search" href="<?= get_home_url(); ?>/procurar" title="<?php esc_attr_e('Search', 'iasd'); ?>"><i class="fas fa-search me-1"></i><?php esc_attr_e('Search', 'iasd'); ?></a>
               </li>
             <?php endif; ?>
 
