@@ -12,7 +12,7 @@ class PaMenuWalker extends Walker_Nav_Menu
     public function start_lvl( &$output, $depth = 0, $args = array() ) {
 		
 		$indent = str_repeat( "\t", $depth );
-		$output .= "\n$indent<ul role=\"menu\" class=\" dropdown-menu pa-split-column-2 p-4\">\n";
+		$output .= "\n$indent<ul role=\"menu\" class=\" dropdown-menu p-4\">\n";
 	}
 
 	public function start_el( &$output, $item, $depth = 0, $args = array(), $id = 0) {
