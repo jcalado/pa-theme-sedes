@@ -4,12 +4,12 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PA - Framework (Parent) 1.5.19\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/pa-theme-sedes\n"
-"POT-Creation-Date: 2022-09-20T15:41:26+00:00\n"
-"PO-Revision-Date: 2022-09-21 08:27+0000\n"
-"Last-Translator: Weblate Admin <joelcalado@gmail.com>\n"
-"Language-Team: Portuguese <http://weblate.example.com/projects/"
-"pa-theme-sedes/iasd/pt/>\n"
-"Language: pt\n"
+"POT-Creation-Date: 2022-10-14T10:40:46+00:00\n"
+"PO-Revision-Date: 2022-10-14 11:51+0000\n"
+"Last-Translator: Joel Calado <joel.calado@adventistas.org.pt>\n"
+"Language-Team: Portuguese (Portugal) <http://weblate.dev.adventistas.org.pt/"
+"projects/pa-theme-sedes/iasd/pt_PT/>\n"
+"Language: pt_PT\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -33,8 +33,7 @@ msgstr "Tema pai para a rede de sites adventistas.org.pt."
 msgid "WebDSA"
 msgstr "Divisão Sul-Americana"
 
-#: 404.php:10
-#: 404.php:16
+#: 404.php:10 404.php:16
 msgid "I'm sorry! Content not found! :("
 msgstr "Desculpe! Conteúdo não encontrado :("
 
@@ -51,16 +50,11 @@ msgid "New search"
 msgstr "Nova pesquisa"
 
 #. Template Name of the theme
-#: 404.php:23
-#: components/menu/header.php:26
-#: search.php:29
+#: 404.php:23 components/menu/header.php:26 search.php:29
 msgid "Search"
 msgstr "Procurar"
 
-#: archive.php:15
-#: archive.php:27
-#: author.php:15
-#: author.php:27
+#: archive.php:15 archive.php:27 author.php:15 author.php:27
 msgid "News"
 msgstr "Notícias"
 
@@ -72,8 +66,7 @@ msgstr "Adventista"
 msgid "Sync data"
 msgstr "Sincronizar dados"
 
-#: Blocks/PAApps/PAApps.php:19
-#: Blocks/PAApps/PAApps.php:221
+#: Blocks/PAApps/PAApps.php:19 Blocks/PAApps/PAApps.php:221
 msgid "IASD - Apps"
 msgstr "IASD - Apps"
 
@@ -86,18 +79,14 @@ msgstr "App"
 #: Blocks/PACarouselFeature/PACarouselFeature.php:35
 #: Blocks/PACarouselKits/PACarouselKits.php:39
 #: Blocks/PACarouselMinistry/PACarouselMinistry.php:37
-#: Blocks/PAFacebook/PAFacebook.php:34
-#: Blocks/PAFindChurch/PAFindChurch.php:47
+#: Blocks/PAFacebook/PAFacebook.php:34 Blocks/PAFindChurch/PAFindChurch.php:47
 #: Blocks/PAListButtons/PAListButtons.php:50
 #: Blocks/PAListDownloads/PAListDownloads.php:38
-#: Blocks/PAListIcons/PAListIcons.php:62
-#: Blocks/PAListItems/PAListItems.php:65
-#: Blocks/PAListNews/PAListNews.php:59
-#: Blocks/PAListVideos/PAListVideos.php:50
+#: Blocks/PAListIcons/PAListIcons.php:62 Blocks/PAListItems/PAListItems.php:65
+#: Blocks/PAListNews/PAListNews.php:59 Blocks/PAListVideos/PAListVideos.php:50
 #: Blocks/PAMagazines/PAMagazines.php:33
 #: Blocks/PAQueroVidaSaude/PAQueroVidaSaude.php:38
-#: Blocks/PASevenCast/PASevenCast.php:38
-#: Blocks/PATwitter/PATwitter.php:34
+#: Blocks/PASevenCast/PASevenCast.php:38 Blocks/PATwitter/PATwitter.php:34
 #: Blocks/Plugins/LocalData/LocalData.php:673
 #: Blocks/Plugins/RemoteData/RemoteData.php:665
 #: Blocks/UPASDFindChurch/UPASDFindChurch.php:47
@@ -128,15 +117,12 @@ msgstr "Bloco de downloads no formato carrossel."
 #: Blocks/PAFeliz7Play/PAFeliz7Play.php:912
 #: Blocks/PAListButtons/PAListButtons.php:52
 #: Blocks/PAListDownloads/PAListDownloads.php:41
-#: Blocks/PAListIcons/PAListIcons.php:64
-#: Blocks/PAListItems/PAListItems.php:68
-#: Blocks/PAListNews/PAListNews.php:62
-#: Blocks/PAListNews/PAListNews.php:93
+#: Blocks/PAListIcons/PAListIcons.php:64 Blocks/PAListItems/PAListItems.php:68
+#: Blocks/PAListNews/PAListNews.php:62 Blocks/PAListNews/PAListNews.php:93
 #: Blocks/PAListVideos/PAListVideos.php:53
 #: Blocks/PAMagazines/PAMagazines.php:35
 #: Blocks/PAQueroVidaSaude/PAQueroVidaSaude.php:41
-#: Blocks/PASevenCast/PASevenCast.php:41
-#: Blocks/UPASDNtp/UPASDNtp.php:38
+#: Blocks/PASevenCast/PASevenCast.php:41 Blocks/UPASDNtp/UPASDNtp.php:38
 msgid "Itens"
 msgstr "Itens"
 
@@ -171,7 +157,7 @@ msgstr "Bloco de kits no formato carrossel."
 #: Blocks/PACarouselMinistry/PACarouselMinistry.php:19
 #: Blocks/PACarouselMinistry/PACarouselMinistry.php:38
 msgid "IASD - Feature Slider - Ministry"
-msgstr "IASD - Slider destaque - Ministério"
+msgstr "IASD - Slider destaque - Departamento"
 
 #: Blocks/PACarouselMinistry/PACarouselMinistry.php:20
 msgid "Block to feature content in slider format."
@@ -181,8 +167,7 @@ msgstr "Bloco de conteúdo no formato slider."
 msgid "Tag"
 msgstr "Etiqueta"
 
-#: Blocks/PAFacebook/PAFacebook.php:18
-#: Blocks/PAFacebook/PAFacebook.php:35
+#: Blocks/PAFacebook/PAFacebook.php:18 Blocks/PAFacebook/PAFacebook.php:35
 msgid "IASD - Facebook"
 msgstr "IASD - Facebook"
 
@@ -222,8 +207,7 @@ msgstr "Acesso rápido"
 msgid "Icon"
 msgstr "Ícone"
 
-#: Blocks/PAFindChurch/PAFindChurch.php:43
-#: Blocks/PAImage/PAImage.php:46
+#: Blocks/PAFindChurch/PAFindChurch.php:43 Blocks/PAImage/PAImage.php:46
 #: Blocks/PAListIcons/PAListIcons.php:72
 #: Blocks/Plugins/LocalData/LocalData.php:680
 #: Blocks/Plugins/RemoteData/RemoteData.php:672
@@ -245,8 +229,7 @@ msgstr "IASD - Imagem"
 msgid "Block to show a image."
 msgstr "Bloco para mostrar uma imagem."
 
-#: Blocks/PAImage/PAImage.php:34
-#: Blocks/PAListNews/PAListNews.php:45
+#: Blocks/PAImage/PAImage.php:34 Blocks/PAListNews/PAListNews.php:45
 #: Blocks/PAListVideos/PAListVideos.php:43
 msgid "Format"
 msgstr "Formato"
@@ -279,8 +262,7 @@ msgstr "Bloco para mostrar downloads no formato de lista."
 msgid "IASD - Downloads - Buttons"
 msgstr "IASD - Downloads - Botões"
 
-#: Blocks/PAListIcons/PAListIcons.php:21
-#: Blocks/PAListIcons/PAListIcons.php:63
+#: Blocks/PAListIcons/PAListIcons.php:21 Blocks/PAListIcons/PAListIcons.php:63
 msgid "IASD - Icons - List"
 msgstr "IASD - Ícones - Lista"
 
@@ -288,8 +270,7 @@ msgstr "IASD - Ícones - Lista"
 msgid "Block to show contents in list format with icons."
 msgstr "Bloco par amostrar conteúdos em formato de lista com ícones."
 
-#: Blocks/PAListItems/PAListItems.php:21
-#: Blocks/PAListItems/PAListItems.php:66
+#: Blocks/PAListItems/PAListItems.php:21 Blocks/PAListItems/PAListItems.php:66
 msgid "IASD - Itens - List"
 msgstr "IASD - Itens - Lista"
 
@@ -297,8 +278,7 @@ msgstr "IASD - Itens - Lista"
 msgid "Block to show contents in list format with images."
 msgstr "Bloco para mostrar coneudos no formato lista com imagems."
 
-#: Blocks/PAListNews/PAListNews.php:25
-#: Blocks/PAListNews/PAListNews.php:60
+#: Blocks/PAListNews/PAListNews.php:25 Blocks/PAListNews/PAListNews.php:60
 msgid "IASD - News - List"
 msgstr "IASD - Notícias - Lista"
 
@@ -306,8 +286,7 @@ msgstr "IASD - Notícias - Lista"
 msgid "Block to show news content in list format."
 msgstr "Bloco para mostrar notícias no formato de lista."
 
-#: Blocks/PAListNews/PAListNews.php:75
-#: Blocks/PAListNews/PAListNews.php:97
+#: Blocks/PAListNews/PAListNews.php:75 Blocks/PAListNews/PAListNews.php:97
 msgid "Post format"
 msgstr "Formato do Post"
 
@@ -331,8 +310,7 @@ msgstr "IASD - Vídeos - Lista"
 msgid "Time (in seconds)"
 msgstr "Tempo (em segundos)"
 
-#: Blocks/PAMagazines/PAMagazines.php:18
-#: Blocks/PAMagazines/PAMagazines.php:34
+#: Blocks/PAMagazines/PAMagazines.php:18 Blocks/PAMagazines/PAMagazines.php:34
 msgid "IASD - Magazines"
 msgstr "IASD - Revistas"
 
@@ -385,7 +363,8 @@ msgstr "Quantidade"
 
 #: Blocks/Plugins/LocalData/LocalData.php:262
 #: Blocks/Plugins/RemoteData/RemoteData.php:291
-msgid "Filter by post type.<br />Obs: Fixed items are not affected by this filter."
+msgid ""
+"Filter by post type.<br />Obs: Fixed items are not affected by this filter."
 msgstr ""
 "Filtrar por tipo de post.<br/>Obs: Itens afixados não são afetados por este "
 "filtro."
@@ -574,8 +553,7 @@ msgstr "A password não é suficientemente complexa."
 msgid "Our social networks"
 msgstr "As nossas redes sociais"
 
-#: components/menu/footer.php:82
-#: footer.php:5
+#: components/menu/footer.php:82 footer.php:5
 msgid "Seventh-day Adventist Church"
 msgstr "Igreja Adventista do Sétimo Dia"
 
@@ -639,13 +617,11 @@ msgstr "Página - Largura inteira"
 msgid "Page - Widgets"
 msgstr "Página - Widgets"
 
-#: page.php:22
-#: single.php:23
+#: page.php:22 single.php:23
 msgid "By"
 msgstr "Por"
 
-#: page.php:36
-#: single.php:35
+#: page.php:36 single.php:35
 msgid "Hear text"
 msgstr "Ouvir o texto"
 
@@ -668,3 +644,12 @@ msgstr "Em destaque"
 #: assets/scripts/admin.js:202
 msgid "Please select at least one "
 msgstr "Por favor selecione pelo menos um "
+
+msgid "Finding a church"
+msgstr "Encontre uma igreja"
+
+msgid "Adventist churches that are located in the South American Division."
+msgstr "Igrejas Adventistas localizadas em Portugal."
+
+msgid "Church search"
+msgstr "Procurar igreja"
