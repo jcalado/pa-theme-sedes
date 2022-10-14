@@ -672,3 +672,12 @@ msgstr ""
 
 msgid "Church search"
 msgstr ""
+
+msgid "Search by Postcode, city, neighborhood."
+msgstr ""
+
+msgid "Access the website"
+msgstr ""
+
+msgid "Illustrative image of the front end of the block."
+msgstr ""
