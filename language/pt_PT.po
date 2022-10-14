@@ -5,7 +5,7 @@ msgstr ""
 "Project-Id-Version: PA - Framework (Parent) 1.5.19\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/pa-theme-sedes\n"
 "POT-Creation-Date: 2022-10-14T10:40:46+00:00\n"
-"PO-Revision-Date: 2022-10-14 11:51+0000\n"
+"PO-Revision-Date: 2022-10-14 11:58+0000\n"
 "Last-Translator: Joel Calado <joel.calado@adventistas.org.pt>\n"
 "Language-Team: Portuguese (Portugal) <http://weblate.dev.adventistas.org.pt/"
 "projects/pa-theme-sedes/iasd/pt_PT/>\n"
@@ -653,3 +653,12 @@ msgstr "Igrejas Adventistas localizadas em Portugal."
 
 msgid "Church search"
 msgstr "Procurar igreja"
+
+msgid "Search by Postcode, city, neighborhood."
+msgstr "Procurar por código postal, cidade ou morada."
+
+msgid "Access the website"
+msgstr "Abrir o site"
+
+msgid "Illustrative image of the front end of the block."
+msgstr "Imagem ilustrativa do front end do bloco."
