@@ -43,7 +43,7 @@ header.pa-menu {
 
 .pa-menu-default .nav {
   a {
-    color: var(--pa-color-gray01);
+    color: var(--pa-color-default);
     font-size: 1.1rem;
     font-family: var(--pa-font-secondary);
     padding: 0.8rem 1rem;
@@ -126,6 +126,12 @@ div.ativo ~ .mask {
     ul {
     list-style: none;
     // padding: 0;
+  }
+}
+
+.pa-menu-mobile {
+  .pa-logo-iasd {
+    height: 50px !important;
   }
 }
 
