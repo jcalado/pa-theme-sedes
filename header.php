@@ -27,14 +27,14 @@
       j.src =
         'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
       f.parentNode.insertBefore(j, f);
-    })(window, document, 'script', 'dataLayer', 'GTM-MHJLVQL');
+    })(window, document, 'script', 'dataLayer', 'GTM-M9C9KB6');
   </script>
   <!-- End Google Tag Manager -->
 </head>
 
 <body <?php body_class(get_field('departamento', 'pa_settings')); ?>>
   <!-- Google Tag Manager (noscript) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MHJLVQL" height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager"></iframe></noscript>
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M9C9KB6" height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
   <?php
   $banner = PaThemeHelpers::getGlobalBanner();
