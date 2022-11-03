@@ -62,6 +62,7 @@ class PaAcfSiteSettings
         ->characterLimit(200)
         ->rows(4),
       Text::make(__('Telephone', 'iasd'), "ct_telephone"),
+      Text::make(__('Email', 'iasd'), "ct_email"),
       Tab::make(__('Social Networks', 'iasd')),
       Url::make('Facebook', "sn_facebook"),
       Url::make('Twitter', "sn_twitter"),
