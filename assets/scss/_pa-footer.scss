@@ -18,7 +18,7 @@ footer {
     }
 
     .item-menu {
-      padding: 7px 0;
+      padding: 3px 0;
 
       a {
         color: var(--pa-color-gray02);
@@ -41,7 +41,8 @@ footer {
 
     .pa-contact {
       .pa-telephone,
-      .pa-adress {
+      .pa-adress,
+      .pa-email {
         color: var(--pa-color-gray02);
 
         &::before {
@@ -61,7 +62,35 @@ footer {
         content: "\f3c5";
       }
 
+      .pa-email::before {
+        content: "\f1fa";
+      }
+
+      @media screen and (max-width: 992px) {
+
+        .pa-telephone::before {
+          content: "Contactar";
+          font-family: "Noto Sans";
+          display: block;
+          margin: 0;
+          font-weight: normal;
+        }
+
+        .pa-adress::before {
+          content: "Visitar";
+          font-family: "Noto Sans";
+          display: block;
+          margin: 0;
+          font-weight: normal;
+        }
+
+        .pa-email::before {
+          display: none;
+        }
+      }
+
       font-size: 0.9rem;
+      margin-top: 1rem;
     }
 
     .pa-social-network {

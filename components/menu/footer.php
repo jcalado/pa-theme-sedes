@@ -5,6 +5,7 @@ $sede = getSiteInfo();
 $campo = $sede['ct_headquarter'];
 $adress = $sede['ct_adress'];
 $telephone = $sede['ct_telephone'];
+$email = $sede['ct_email'];
 $facebook = $sede['sn_facebook'];
 $twitter = $sede['sn_twitter'];
 $youtube = $sede['sn_youtube'];
@@ -31,6 +32,9 @@ $menus = PaThemeHelpers::getGlobalMenu('global-footer');
                                                                                                   } ?>
             <?php if ($telephone) {
             ?><span class="pa-telephone d-block text-center text-md-start mt-4"><?= $telephone ?></span><?php
+                                                                                                      } ?>
+            <?php if ($email) {
+            ?><span class="pa-email d-block text-center text-md-start"><?= $email ?></span><?php
                                                                                                       } ?>
           </div>
         </div>
