@@ -365,6 +365,10 @@
   .pa-break {
     background: url("./assets/imgs/break.svg") center no-repeat;
   }
+
+  .wp-block-cover + p {
+    margin-top: 1.5rem;
+  }
 }
 
 .pa-404 {
