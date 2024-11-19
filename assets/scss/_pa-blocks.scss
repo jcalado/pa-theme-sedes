@@ -207,6 +207,19 @@
   @include pa-carousel-download;
 }
 
+.pa-grid-download {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1rem;
+  @include pa-grid-download;
+}
+
+.pa-table-download {
+  border-collapse: separate;
+  border-spacing: 0 1rem;
+  @include pa-table-download;
+}
+
 .pa-w-list-videos,
 .pa-w-carousel-videos,
 .pa-carousel-download {

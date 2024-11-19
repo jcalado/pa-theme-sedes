@@ -93,6 +93,28 @@
   }
 }
 
+@mixin pa-grid-download {
+  .pa-tag {
+    color: var(--pa-color-default);
+    background-color: var(--pa-color-default-aux);
+
+    @include pa-tag;
+  }
+}
+
+@mixin pa-table-download {
+  td:nth-child(2) {
+    padding-left: 1rem;
+  }
+
+  .pa-tag {
+    color: var(--pa-color-default);
+    background-color: var(--pa-color-default-aux);
+
+    @include pa-tag;
+  }
+}
+
 @mixin pa-wp-block-embed-caption($color: var(--pa-color-gray03)) {
   font-style: normal !important;
   color: $color;
