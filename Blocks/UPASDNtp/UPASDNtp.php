@@ -3,7 +3,7 @@
 namespace Blocks\UPASDNtp;
 
 use Blocks\Block;
-use Extended\RemoteData;
+use ExtendedLocal\RemoteData;
 
 /**
  * Class UPASDNtp
