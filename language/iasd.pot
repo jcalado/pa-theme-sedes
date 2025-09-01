@@ -30,11 +30,6 @@ msgstr ""
 msgid "WebDSA"
 msgstr ""
 
-#: 404.php:10
-#: 404.php:16
-msgid "I'm sorry! Content not found! :("
-msgstr ""
-
 #: 404.php:17
 msgid "The content which you are looking don't exist and don't be found."
 msgstr ""
@@ -687,9 +682,6 @@ msgstr ""
 msgid "I'm sorry! Content not found! :("
 msgstr ""
 
-#: ../404.php:17
-msgid "The content which you are looking don't exist and don't be found."
-msgstr ""
 
 #: ../core/Taxonomies.php:52
 msgid "Collections"
