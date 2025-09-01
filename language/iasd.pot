@@ -681,3 +681,364 @@ msgstr ""
 
 msgid "Illustrative image of the front end of the block."
 msgstr ""
+
+#: ../404.php:10
+#: ../404.php:16
+msgid "I'm sorry! Content not found! :("
+msgstr ""
+
+#: ../404.php:17
+msgid "The content which you are looking don't exist and don't be found."
+msgstr ""
+
+#: ../core/Taxonomies.php:52
+msgid "Collections"
+msgstr ""
+
+#: ../core/Taxonomies.php:53
+msgid "Collection"
+msgstr ""
+
+#: ../core/Taxonomies.php:54
+msgid "Collections taxonomy"
+msgstr ""
+
+#: ../core/Taxonomies.php:58
+msgid "Editorials"
+msgstr ""
+
+#: ../core/Taxonomies.php:60
+msgid "Editorials taxonomy"
+msgstr ""
+
+#: ../core/Taxonomies.php:64
+msgid "Ministries"
+msgstr ""
+
+#: ../core/Taxonomies.php:65
+msgid "Ministry"
+msgstr ""
+
+#: ../core/Taxonomies.php:66
+msgid "Ministries taxonomy"
+msgstr ""
+
+#: ../core/Taxonomies.php:70
+msgid "Projects"
+msgstr ""
+
+#: ../core/Taxonomies.php:71
+msgid "Project"
+msgstr ""
+
+#: ../core/Taxonomies.php:72
+msgid "Projects taxonomy"
+msgstr ""
+
+#: ../core/Taxonomies.php:76
+msgid "Regions"
+msgstr ""
+
+#: ../core/Taxonomies.php:77
+msgid "Region"
+msgstr ""
+
+#: ../core/Taxonomies.php:78
+msgid "Regions taxonomy"
+msgstr ""
+
+#: ../core/Taxonomies.php:82
+msgid "Regional Headquarters"
+msgstr ""
+
+#: ../core/Taxonomies.php:83
+msgid "Regional Headquarter"
+msgstr ""
+
+#: ../core/Taxonomies.php:84
+msgid "Regional Headquarters taxonomy"
+msgstr ""
+
+#: ../core/Taxonomies.php:88
+msgid "Owner Headquarters"
+msgstr ""
+
+#: ../core/Taxonomies.php:89
+msgid "Owner Headquarter"
+msgstr ""
+
+#: ../core/Taxonomies.php:90
+msgid "Owner Headquarters taxonomy"
+msgstr ""
+
+#: ../core/Taxonomies.php:94
+msgid "File types"
+msgstr ""
+
+#: ../core/Taxonomies.php:95
+msgid "File type"
+msgstr ""
+
+#: ../core/Taxonomies.php:96
+msgid "File types taxonomy"
+msgstr ""
+
+#: ../core/Taxonomies.php:141
+msgid "All itens"
+msgstr ""
+
+#: ../core/Taxonomies.php:144
+msgid "Edit"
+msgstr ""
+
+#: ../core/Taxonomies.php:145
+msgid "Update"
+msgstr ""
+
+#: ../core/Taxonomies.php:146
+msgid "Add new"
+msgstr ""
+
+#: ../core/Taxonomies.php:147
+msgid "New"
+msgstr ""
+
+#: ../core/settings/Modules.php:40
+#: ../core/settings/Modules.php:41
+msgid "Modules"
+msgstr ""
+
+#: ../core/settings/Modules.php:79
+msgid "General"
+msgstr ""
+
+#: ../core/settings/Modules.php:81
+msgid "Sidebars"
+msgstr ""
+
+#: ../core/settings/Modules.php:82
+msgid "Enable/disable all IASD sidebars"
+msgstr ""
+
+#: ../core/settings/Modules.php:83
+#: ../core/settings/Modules.php:91
+#: ../core/settings/Modules.php:99
+#: ../core/settings/Modules.php:107
+#: ../core/settings/Modules.php:115
+#: ../core/settings/Modules.php:132
+#: ../core/settings/Modules.php:140
+#: ../core/settings/Modules.php:149
+#: ../core/settings/Modules.php:158
+#: ../core/settings/Modules.php:167
+#: ../core/settings/Modules.php:176
+#: ../core/settings/Modules.php:185
+#: ../core/settings/Modules.php:194
+#: ../core/settings/Modules.php:203
+#: ../core/settings/Modules.php:212
+#: ../core/settings/Modules.php:221
+#: ../core/settings/Modules.php:230
+#: ../core/settings/Modules.php:239
+#: ../core/settings/Modules.php:248
+#: ../core/settings/Modules.php:257
+#: ../core/settings/Modules.php:266
+#: ../core/settings/Modules.php:275
+#: ../core/settings/Modules.php:284
+#: ../core/settings/Modules.php:293
+#: ../core/settings/Modules.php:302
+#: ../core/settings/Modules.php:323
+#: ../core/settings/Modules.php:331
+#: ../core/settings/Modules.php:342
+msgid "Enabled"
+msgstr ""
+
+#: ../core/settings/Modules.php:83
+#: ../core/settings/Modules.php:91
+#: ../core/settings/Modules.php:99
+#: ../core/settings/Modules.php:107
+#: ../core/settings/Modules.php:115
+#: ../core/settings/Modules.php:132
+#: ../core/settings/Modules.php:140
+#: ../core/settings/Modules.php:149
+#: ../core/settings/Modules.php:158
+#: ../core/settings/Modules.php:167
+#: ../core/settings/Modules.php:176
+#: ../core/settings/Modules.php:185
+#: ../core/settings/Modules.php:194
+#: ../core/settings/Modules.php:203
+#: ../core/settings/Modules.php:212
+#: ../core/settings/Modules.php:221
+#: ../core/settings/Modules.php:230
+#: ../core/settings/Modules.php:239
+#: ../core/settings/Modules.php:248
+#: ../core/settings/Modules.php:257
+#: ../core/settings/Modules.php:266
+#: ../core/settings/Modules.php:275
+#: ../core/settings/Modules.php:284
+#: ../core/settings/Modules.php:293
+#: ../core/settings/Modules.php:302
+#: ../core/settings/Modules.php:323
+#: ../core/settings/Modules.php:331
+#: ../core/settings/Modules.php:342
+msgid "Disabled"
+msgstr ""
+
+#: ../core/settings/Modules.php:89
+msgid "Search page"
+msgstr ""
+
+#: ../core/settings/Modules.php:90
+msgid "Enable/disable IASD custom search page"
+msgstr ""
+
+#: ../core/settings/Modules.php:97
+msgid "Header title"
+msgstr ""
+
+#: ../core/settings/Modules.php:98
+msgid "Enable/disable IASD custom header title"
+msgstr ""
+
+#: ../core/settings/Modules.php:105
+msgid "REST cleanup"
+msgstr ""
+
+#: ../core/settings/Modules.php:106
+msgid "Enable/disable IASD REST cleanup"
+msgstr ""
+
+#: ../core/settings/Modules.php:113
+msgid "Seventh column"
+msgstr ""
+
+#: ../core/settings/Modules.php:114
+msgid "Enable/disable IASD seventh column"
+msgstr ""
+
+#: ../core/settings/Modules.php:128
+#: ../core/settings/Synchronization.php:55
+msgid "Blocks"
+msgstr ""
+
+#: ../core/settings/Modules.php:130
+msgid "All blocks"
+msgstr ""
+
+#: ../core/settings/Modules.php:131
+msgid "Enable/disable all IASD blocks"
+msgstr ""
+
+#: ../core/settings/Modules.php:147
+msgid "IASD - Twitter"
+msgstr ""
+
+#: ../core/settings/Modules.php:148
+msgid "IASD Twitter block."
+msgstr ""
+
+#: ../core/settings/Modules.php:219
+msgid "IASD - 7Cast"
+msgstr ""
+
+#: ../core/settings/Modules.php:220
+msgid "Block to show 7cast content in list format."
+msgstr ""
+
+#: ../core/settings/Modules.php:321
+msgid "All taxonomies"
+msgstr ""
+
+#: ../core/settings/Modules.php:322
+msgid "Enable/disable all IASD taxonomies"
+msgstr ""
+
+#: ../core/settings/Modules.php:329
+msgid "Taxonomies synchronization"
+msgstr ""
+
+#: ../core/settings/Modules.php:330
+msgid "Enable/disable IASD taxonomies synchronization"
+msgstr ""
+
+#: ../core/settings/Synchronization.php:35
+#: ../core/settings/Synchronization.php:36
+#: ../core/settings/Synchronization.php:51
+msgid "Synchronization"
+msgstr ""
+
+#: ../core/settings/Synchronization.php:52
+msgid "Sync site data"
+msgstr ""
+
+#: ../core/settings/Synchronization.php:56
+msgid "Sync blocks data"
+msgstr ""
+
+#: ../core/settings/Synchronization.php:57
+#: ../core/settings/Synchronization.php:63
+msgid "Sync"
+msgstr ""
+
+#: ../core/settings/Synchronization.php:62
+msgid "Sync taxonomies data"
+msgstr ""
+
+#: ../core/settings/Synchronization.php:95
+msgid "Sync blocks"
+msgstr ""
+
+#: ../core/settings/Synchronization.php:107
+msgid "Sync taxonomies"
+msgstr ""
+
+#: ../classes/controllers/PA_ACF_Site-settings.class.php:65
+msgid "Email"
+msgstr ""
+
+#: ../Blocks/PAFeliz7Play/views/frontend.blade.php:7
+#: ../Blocks/PAFeliz7Play/views/frontend.blade.php:7
+#: ../Blocks/UPASDNtp/views/frontend.blade.php:7
+#: ../Blocks/UPASDNtp/views/frontend.blade.php:7
+msgid "Feliz7Play"
+msgstr ""
+
+#: ../Blocks/PACarouselKits/PACarouselKits.php:43
+#: ../Blocks/PAFeliz7Play/PAFeliz7Play.php:915
+msgid "Posição das Setas de Nevagação"
+msgstr ""
+
+#: ../Blocks/PACarouselKits/PACarouselKits.php:54
+#: ../Blocks/PAFeliz7Play/PAFeliz7Play.php:925
+msgid "Formato de exibição dos Cards"
+msgstr ""
+
+#: ../Blocks/PACarouselKits/PACarouselKits.php:64
+#: ../Blocks/PACarouselMinistry/PACarouselMinistry.php:41
+#: ../Blocks/PAFeliz7Play/PAFeliz7Play.php:935
+msgid "Ativar Autoplay"
+msgstr ""
+
+#: ../Blocks/PA7Class/PA7Class.php:19
+#: ../Blocks/PA7Class/PA7Class.php:38
+msgid "IASD - 7Class"
+msgstr ""
+
+#: ../Blocks/PA7Class/PA7Class.php:20
+msgid "Block to show contents from 7Class."
+msgstr ""
+
+#: ../Blocks/PAApps/views/frontend.blade.php:16
+msgid "Apps"
+msgstr ""
+
+#: ../Blocks/PAApps/views/frontend.blade.php:22
+msgid "Apps available for:"
+msgstr ""
+
+#: ../Blocks/PAApps/views/frontend.blade.php:29
+msgid "Apple Store"
+msgstr ""
+
+#: ../Blocks/PAApps/views/frontend.blade.php:37
+msgid "Google Play"
+msgstr ""
+
