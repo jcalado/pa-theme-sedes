@@ -30,6 +30,7 @@ class PaThemeHelpers
     add_filter('run_wptexturize', '__return_false');
 
     define('LANG', $this->getInfoLang());
+    define('SITE', parse_url(home_url(), PHP_URL_HOST));
   }
 
   function themeSupport()
