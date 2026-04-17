@@ -12,8 +12,8 @@ function PA_Register_Sliders_Home_Post_Type()
 {
 
   $labels = array(
-    'name' => _x('Sliders Home', 'Nome do post genérico'),
-    'singular_name' => _x('Slider Home', 'Nome do post no singular'),
+    'name' => _x('Sliders Home', 'Nome do post genérico', 'iasd'),
+    'singular_name' => _x('Slider Home', 'Nome do post no singular', 'iasd'),
   );
 
   $args = array(

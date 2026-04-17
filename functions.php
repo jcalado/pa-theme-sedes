@@ -24,7 +24,9 @@ require_once(dirname(__FILE__) . '/classes/controllers/PA_Register_Sidebars.clas
 require_once(dirname(__FILE__) . '/classes/controllers/PA_REST-Cleanup.class.php');
 require_once(dirname(__FILE__) . '/classes/controllers/PA_Sedes_Infos.php');
 require_once(dirname(__FILE__) . '/classes/controllers/PA_Header_Title.class.php');
-require_once(dirname(__FILE__) . '/Fields/TaxonomyTerms.php');
+add_action('acf/include_field_types', function() {
+	require_once(dirname(__FILE__) . '/Fields/TaxonomyTerms.php');
+});
 require_once(dirname(__FILE__) . '/classes/controllers/PA_SearchPage.class.php');
 require_once(dirname(__FILE__) . '/classes/controllers/PA_Strong_Passwords.php');
 
