@@ -150,13 +150,19 @@ class PaThemeHelpers
     $menus = ['global-header', 'global-footer'];
 
     foreach ($menus as $name) {
-     $file_path = "https://" . API_PA . "/tax/" . LANG . "/menus/{$name}";
+      $url = "https://" . API_PA . "/tax/" . LANG . "/menus/{$name}";
 
-     if (file_exists($file_path) && is_readable($file_path)) {
-      $json = file_get_contents( $file_path);   
-      $json_content = json_decode($json);
-          update_option('menu_' . $name, $json_content, '', 'yes');
-     }     
+      $response = wp_remote_get($url, ['timeout' => 10]);
+
+      if (is_wp_error($response) || wp_remote_retrieve_response_code($response) !== 200) {
+        continue;
+      }
+
+      $json_content = json_decode(wp_remote_retrieve_body($response));
+
+      if ($json_content !== null) {
+        update_option('menu_' . $name, $json_content, '', 'yes');
+      }
     }
   }
 
@@ -171,13 +177,19 @@ class PaThemeHelpers
 
   static function setGlobalBanner()
   {
-    $file_path = "https://" . API_PA . "/tax/" . LANG . "/banner";
-    
-    if (file_exists($file_path) && is_readable($file_path)) {
-      $json = file_get_contents($file_path);
-      $json_content = json_decode($json);
+    $url = "https://" . API_PA . "/tax/" . LANG . "/banner";
+
+    $response = wp_remote_get($url, ['timeout' => 10]);
+
+    if (is_wp_error($response) || wp_remote_retrieve_response_code($response) !== 200) {
+      return;
+    }
+
+    $json_content = json_decode(wp_remote_retrieve_body($response));
+
+    if ($json_content !== null) {
       update_option('banner_global', $json_content, '', 'yes');
-    }    
+    }
   }
 
   function bodyClass($classes)
