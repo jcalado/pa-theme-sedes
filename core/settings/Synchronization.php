@@ -46,21 +46,56 @@ class Synchronization {
    * @return void
    */
   function renderPage(): void {
+    $blocks     = Modules::isActiveModule('blocks');
+    $taxonomies = Modules::isActiveModule('taxonomies') && Modules::isActiveModule('taxonomiessync');
     ?>
     <div class="wrap">
       <h1><?= __('Synchronization', 'iasd') ?></h1>
-      <p><?= __('Sync site data', 'iasd') ?></p>
+      <p class="description"><?= __('Sync site data from remote sources.', 'iasd') ?></p>
 
-      <?php if(Modules::isActiveModule('blocks')): ?>
-        <h2><?= __('Blocks', 'iasd') ?></h2>
-        <p><?= __('Sync blocks data', 'iasd') ?></p>
-        <button class="button button-primary" onclick="syncBlocks(event)"><?= __('Sync', 'iasd') ?></button>
+      <div class="iasd-sync-notices" aria-live="polite"></div>
+
+      <?php if($blocks && $taxonomies): ?>
+        <p>
+          <button type="button" class="button button-primary button-large" data-sync="all">
+            <?= __('Sync all', 'iasd') ?>
+          </button>
+          <span class="spinner" style="float:none;vertical-align:middle;"></span>
+        </p>
       <?php endif; ?>
 
-      <?php if(Modules::isActiveModule('taxonomies') && Modules::isActiveModule('taxonomiessync')): ?>
-        <h2><?= __('Taxonomies', 'iasd') ?></h2>
-        <p><?= __('Sync taxonomies data', 'iasd') ?></p>
-        <button class="button button-primary" onclick="syncTaxonomies(event)"><?= __('Sync', 'iasd') ?></button>
+      <?php if($blocks): ?>
+        <div class="postbox">
+          <div class="postbox-header">
+            <h2 class="hndle"><?= __('Blocks', 'iasd') ?></h2>
+          </div>
+          <div class="inside">
+            <p><?= __('Sync block data from the remote source.', 'iasd') ?></p>
+            <p>
+              <button type="button" class="button button-primary" data-sync="blocks">
+                <?= __('Sync blocks', 'iasd') ?>
+              </button>
+              <span class="spinner" style="float:none;vertical-align:middle;"></span>
+            </p>
+          </div>
+        </div>
+      <?php endif; ?>
+
+      <?php if($taxonomies): ?>
+        <div class="postbox">
+          <div class="postbox-header">
+            <h2 class="hndle"><?= __('Taxonomies', 'iasd') ?></h2>
+          </div>
+          <div class="inside">
+            <p><?= __('Sync taxonomy data from the remote source.', 'iasd') ?></p>
+            <p>
+              <button type="button" class="button button-primary" data-sync="taxonomies">
+                <?= __('Sync taxonomies', 'iasd') ?>
+              </button>
+              <span class="spinner" style="float:none;vertical-align:middle;"></span>
+            </p>
+          </div>
+        </div>
       <?php endif; ?>
     </div>
     <?php
