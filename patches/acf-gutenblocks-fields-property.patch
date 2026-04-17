@@ -1,0 +1,23 @@
+Declare $fields property to fix PHP 8.2+ dynamic property deprecation.
+
+Upstream Block.php assigns $this->fields in the constructor without ever
+declaring the property, which triggers a Deprecated notice on every Block
+subclass under PHP 8.2+.
+
+--- a/src/Block.php
++++ b/src/Block.php
+@@ -103,6 +103,14 @@
+     protected $enabled = true;
+ 
+     /**
++     * The ACF fields registered for the block.
++     *
++     * @since 0.1.0
++     * @var array $fields
++     */
++    protected $fields = [];
++
++    /**
+      * Begin block construction!
+      *
+      * @since 0.10

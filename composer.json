@@ -65,12 +65,24 @@
     "vinkla/extended-acf": "^13.3.0",
     "studiovisual/acf-gutenblocks": "dev-release/0.4.2",
     "lordealeister/acf-multisite-options": "dev-master",
-    "ben.moody/wp-rest-headless": "dev-master"
+    "ben.moody/wp-rest-headless": "dev-master",
+    "cweagans/composer-patches": "^1.7.3"
+  },
+  "extra": {
+    "patches": {
+      "studiovisual/acf-gutenblocks": {
+        "Declare $fields property (PHP 8.2+ dynamic property deprecation)": "patches/acf-gutenblocks-fields-property.patch"
+      }
+    }
   },
   "config": {
-		"preferred-install": "source",
-    "platform-check": false
-	},
-	"minimum-stability": "dev",
-	"prefer-stable": false
+    "preferred-install": "source",
+    "platform-check": false,
+    "allow-plugins": {
+      "cweagans/composer-patches": true,
+      "composer/installers": true
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": false
 }
